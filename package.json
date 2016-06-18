@@ -1,0 +1,19 @@
+{
+  "name": "cherish-dialog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieQin/cherish-dialog.git"
+  },
+  "author": "xieq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xieQin/cherish-dialog/issues"
+  },
+  "homepage": "https://github.com/xieQin/cherish-dialog#readme"
+}
