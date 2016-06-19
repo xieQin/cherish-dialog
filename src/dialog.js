@@ -4,11 +4,12 @@ import React from 'react'
 export default React.createClass({
   render () {
     return (
-      <div className={this.props.status}>
-        <div className='mask'></div>
+      <div id='dialog-layer' className={this.props.status}>
+        <div className='mask' onClick={this.props.onCloseClick}></div>
         <div className='dialog'>
-          <div className='title'>Title</div>
-          <div className='text'>Text</div>
+          <div className='close' onClick={this.props.onCloseClick}>X</div>
+          <div className='title'>{this.props.title}</div>
+          <div className='text'>{this.props.text}</div>
         </div>
       </div>
     )
