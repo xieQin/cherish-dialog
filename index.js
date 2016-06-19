@@ -1,5 +1,12 @@
-import './src/css/normalize.css'
-import $ from 'jquery'
-import './src/css/main.css'
+/*eslint-disable no-unused-vars*/
 
-$('#app').html('<p>111</p>')
+import './src/css/normalize.css'
+import './src/css/main.css'
+import React from 'react'
+import { render } from 'react-dom'
+import Btn from './src/btn'
+
+render(
+  <Btn/>,
+  document.getElementById('app')
+)
